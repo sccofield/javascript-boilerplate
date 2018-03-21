@@ -1,0 +1,27 @@
+{
+  "name": "javascript-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for javascript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sccofield/javascript-boilerplate.git"
+  },
+  "author": "Michael Umanah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sccofield/javascript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sccofield/javascript-boilerplate#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
