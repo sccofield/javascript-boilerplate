@@ -19,8 +19,15 @@
     "ignoreComments": true,
     "ignoreUrls": true,
     "ignoreStrings": true,
-    "ignoreTemplateLiterals": true
+    "ignoreTemplateLiterals": true,
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+        }]
+
     }]
 }
-
 }
